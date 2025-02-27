@@ -22,7 +22,15 @@ export const Header: React.FC<Props> = ({ className }) => {
                     <h2>Поиск пиццы...</h2>
 
                 </div>
-                <div></div>
+                <div className='rounded-md border-solid border border-orange-600 m-0'>
+                    <div className='flex items-center my-3 mx-3 '>
+                        <Image src="/people.svg" alt='' width={30} height={30} className='mr-4'/>
+                        <h2 className='text-orange-600'>Войти</h2>
+                    </div>
+                </div>
+                <div className='rounded-md border-solid border border-orange-600 m-0'>
+                    <Image src="/cart.svg" alt='' width={30} height={30} className='my-3 mx-3'/>
+                </div>
             </Container>
         </header>
     );
