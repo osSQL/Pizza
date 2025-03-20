@@ -25,5 +25,5 @@ export const Categories: React.FC<Props> = ({className}) => {
                     </a>
             ))}
         </div>
-    )
-}
+    );
+};
